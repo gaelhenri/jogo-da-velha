@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Jogo da Velha</title>
+
+<link rel="stylesheet" href="./src/styles/style.css">
+</head>
+<body>
+<h1>Jogo da Velha</h1>
+<div>
+<div id="1" class="square" onclick="chooseSquare(this.id)">-</div>
+<div id="2" class="square" onclick="chooseSquare(this.id)">-</div>
+<div id="3" class="square" onclick="chooseSquare(this.id)">-</div>
+</div>
+
+<div>
+<div id="4" class="square" onclick="chooseSquare(this.id)">-</div>
+<div id="5" class="square" onclick="chooseSquare(this.id)">-</div>
+<div id="6" class="square" onclick="chooseSquare(this.id)">-</div>
+</div>
+
+<div>
+<div id="7" class="square" onclick="chooseSquare(this.id)">-</div>
+<div id="8" class="square" onclick="chooseSquare(this.id)">-</div>
+<div id="9" class="square" onclick="chooseSquare(this.id)">-</div>
+</div>
+
+<div class="gamer">
+<label>Jogador: </label>
+<label id="gamer-selected"></label>
+
+</div>
+
+<div class="winner">
+<label>Vencedor: </label>
+<label id="winner-selected"></label>
+</div>
+
+<div>
+<button onclick="restart()">Reiniciar</button>
+</div>
+
+<footer>
+<p>Projeto desenvolvido no curso "Criando seu próprio jogo da velha com HTML e
+Javascript"<br>do Bootcamp JavaScript Game Developer da <a
+href="https://digitalinnovation.one/" target="_blank" rel="noopener noreferrer">Digital
+Innovation One</a></p>
+<p>Repositório <a href="https://github.com/Pleiterson/game-de-naves-dio"
+target="_blank" rel="noopener noreferrer">GitHub</a> desde projeto</p>
+<p>Desenvolvido por <a href="https://pleiterson.vercel.app/" target="_blank"
+rel="noopener noreferrer">Pleiterson Amorim</a></p>
+</footer>
+</body>
+
+<script src="./src/scripts/script.js"></script>
+
+</html>
